@@ -1,0 +1,6 @@
+target/
+*.img
+*.pdf
+*.png
+sign_key.b64
+assets/
