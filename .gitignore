@@ -1,6 +1,35 @@
+# Rust/Cargo
 target/
 *.img
 *.pdf
 *.png
 sign_key.b64
 assets/
+
+# Editior / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+
+# Build artifacts
+/*.exe
+/*.dil
+/*.so
+
+# Local assets and secrets
+sign_key.b64
+*.pem
+*.key
+*.crt
+
+# test artifacts
+test.img
+*.img
+cert_qr.png
+wipe_certificate.pdf
+wipe_cert_*.json
+/tmp/
+
+
